@@ -14,7 +14,7 @@ def my_decorator(func):
         func()
         end_time = datetime.now()
         print(end_time - start_time)
-    return silencer
+    return silencerl
 
 
 @my_decorator
